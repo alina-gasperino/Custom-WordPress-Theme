@@ -1,0 +1,56 @@
+input[type="text"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid $black;
+  background: none;
+  width: 100%;
+}
+
+input::placeholder,
+input {
+  font-family: $cadiz-light;
+  font-size: 16.5px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 27px;
+  color: $black;
+}
+
+input[type="submit"] {
+  border: 1px solid $brown-black;
+  background: transparent;
+  text-transform: uppercase;
+  padding: 9px 9px 9px 11px;
+  color: $brown-black;
+  margin-top: 30px;
+
+  @include nav-link;
+}
+
+.gform_validation_container {
+  display: none;
+}
+
+.gform_fields {
+  padding-left: 0;
+  margin-bottom: 0;
+
+  label {
+    display: none;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+.newsletter-form input[type="email"] {
+  text-align: center;
+  padding-bottom: 11px;
+  max-width: 332px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+  -webkit-appearance: none;
+  border-radius: 0;
+}

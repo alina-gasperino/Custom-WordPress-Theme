@@ -1,0 +1,43 @@
+.shop-nav {
+  border-top: 1px solid $brown;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.shop-widget--hidden {
+  display: none;
+}
+
+.shop-item {
+  margin-bottom: 100px;
+  transition: all 0.3s ease;
+
+  @media (max-width: $tablet) {
+    margin-bottom: 65px;
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.shop-section {
+  min-height: 50vh;
+  opacity: 0;
+  transition: all 0.3s ease;
+
+  &.go {
+    opacity: 1;
+  }
+}
+
+.tab-content .show-lg {
+  margin-bottom: 25px;
+}
+
+.shop-tab {
+  @media (max-width: $tablet) {
+    display: block !important;
+    opacity: 1 !important;
+  }
+}

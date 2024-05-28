@@ -1,0 +1,52 @@
+@mixin global-font {
+  font-family: $cadiz-light;
+  font-size: 16.5px;
+  color: $brown-black;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+}
+
+@mixin headline {
+  margin-bottom: 0;
+  font-family: $ogg;
+  color: $black;
+}
+
+@mixin headline-1 {
+  font-size: 27.5px;
+  line-height: 33px;
+}
+
+@mixin headline-2 {
+  font-size: 27.5px;
+  line-height: 33px;
+}
+
+@mixin headline-3 {
+  font-size: 18.5px;
+  letter-spacing: 0.56px;
+  line-height: 22px;
+}
+//
+// @mixin headline-4 {
+//
+// }
+//
+// @mixin headline-5 {
+//
+// }
+//
+// @mixin headline-6 {
+//
+// }
+//
+// @mixin button {
+//
+// }
+
+@mixin nav-link {
+  font-family: $akkurat-mono;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  line-height: 10px;
+}

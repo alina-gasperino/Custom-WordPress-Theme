@@ -1,0 +1,51 @@
+.wps-component-products-buy-button,
+.wps-pagination-controls {
+  display: none !important;
+}
+
+.wps-products-title {
+  font-size: 18.5px;
+  font-weight: 300;
+  color: #323132;
+  margin: 0;
+  padding: 7px 0;
+  letter-spacing: 1px;
+  font-family: "Cadiz-Light", sans-serif;
+  text-align: center;
+}
+
+.wps-product-image {
+  margin: 0 !important;
+}
+
+.wps-product-image-on-sale-label {
+  background: #d6bfae !important;
+  color: #323132 !important;
+  font-family: "Akkurat-Mono", sans-serif;
+}
+
+.wps-product-type {
+  margin-top: 50px !important;
+}
+
+.wps-vendor-title,
+.wps-product-type {
+  text-align: center !important;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #323132;
+  line-height: 13px !important;
+  font-family: "Akkurat-Mono", sans-serif !important;
+}
+
+.wps-component-products-pricing {
+  align-items: center !important;
+  margin-left: 10px !important;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #323132;
+  line-height: 13px !important;
+  font-family: "Akkurat-Mono", sans-serif !important;
+}

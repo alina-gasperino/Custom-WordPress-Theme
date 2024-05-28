@@ -1,0 +1,35 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+/* Colors */
+$black: #323132;
+$tan: #e7d8ca;
+$tan-light: #f8f4f1;
+$brown: #c8a895;
+$dark-brown: #b9927a;
+$dark-brown-alt: #d6bfae;
+$light-brown: #e1b9b2;
+
+$brown-black: #5b574e;
+
+/* Fonts */
+$cadiz-light: "Cadiz Light", sans-serif;
+$akkurat-mono: "Akkurat-Mono", sans-serif;
+$ogg: "Ogg", sans-serif;
+$ogg-light: "Ogg Thin", sans-serif;
+$ogg-med: "Ogg Med", sans-serif;
+
+/** Grid */
+$desktop-xl: 1300px;
+$desktop: 1200px;
+$tablet: 992px;
+$mobile: 768px;
+$mobile-xs: 600px;

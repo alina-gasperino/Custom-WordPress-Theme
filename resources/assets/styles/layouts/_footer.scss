@@ -1,0 +1,55 @@
+.footer {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.tmpl-about .footer,
+.tmpl-press .footer {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.footer .social-icons li {
+  padding: 0 20px;
+}
+
+.footer .social-icons {
+  @media (max-width: $tablet) {
+    border-top: 1px solid $brown-black;
+    border-bottom: 1px solid $brown-black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.footer.border-top--brown {
+  @media (max-width: $tablet) {
+    border-top: 0;
+    padding-top: 0;
+  }
+}
+
+.footer-terms {
+  padding: 0 20px;
+  line-height: 10px;
+  display: block;
+  color: $black;
+
+  @media (max-width: 1200px) {
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+
+  @media (max-width: $tablet) {
+    display: block;
+    padding: 10px 20px;
+  }
+}
+
+.footer .container-lrg {
+  @media (max-width: $tablet) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

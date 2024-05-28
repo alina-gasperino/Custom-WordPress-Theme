@@ -1,0 +1,110 @@
+.hidden-shop-widget {
+  display: none;
+}
+
+.reward-img {
+  height: 130px;
+  margin-bottom: 20px;
+  position: relative;
+
+  img {
+    max-width: 210px;
+  }
+}
+
+.bo-info hr {
+  display: none;
+}
+
+.stp-info,
+.bo-info,
+.bo-info h4 {
+  @extend .sm-headline;
+
+  line-height: 15px;
+}
+
+.stp-info span,
+.bo-info h4 {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.vanish-reward-widget {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  max-height: 300px;
+  position: relative;
+
+  &.go {
+    opacity: 1;
+  }
+}
+
+.vanish-reward-widget .slick-arrow {
+  position: absolute;
+  top: 50%;
+  background-image: url("../images/icons/down-arrow.svg");
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 18px;
+  background-size: contain;
+  background-position: center;
+  border: none;
+  text-indent: -99999px;
+  overflow: hidden;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.vanish-reward-widget .slick-next {
+  right: -30px;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.vanish-reward-widget .slick-prev {
+  left: -30px;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.blog-list-item .stp-price {
+  display: none !important;
+}
+
+.stp-product {
+  position: relative;
+  display: block;
+
+  img,
+  .stp-info {
+    transition: all 0.3s ease;
+  }
+}
+
+.stp-product::after {
+  content: "Shop";
+  font-family: "Ogg Italic", sans-serif;
+  font-size: 15px;
+  color: $black;
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 10px);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.stp-product:hover {
+  opacity: 1 !important;
+
+  &::after {
+    opacity: 1;
+    top: 50%;
+  }
+
+  img,
+  .stp-info {
+    opacity: 0.5;
+  }
+}

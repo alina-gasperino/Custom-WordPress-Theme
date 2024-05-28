@@ -1,0 +1,14 @@
+.acf-field-5e7a4384e5c6f .quicktags-toolbar input:not([value="i"]),
+.acf-field-5e7e2a1fdfe75 .quicktags-toolbar input:not([value="i"]) {
+  display: none !important;
+}
+
+.acf-field-5e7a4384e5c6f .wp-editor-area,
+.acf-field-5e7e2a1fdfe75 .wp-editor-area {
+  height: 75px !important;
+}
+
+.acf-field {
+  padding-left: 15px;
+  padding-right: 15px;
+}

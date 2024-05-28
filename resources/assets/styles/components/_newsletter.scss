@@ -1,0 +1,110 @@
+.social-icons-share a {
+  padding: 0 5px;
+}
+
+.modal--wrapper {
+  background: rgba(231, 216, 202, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.4s ease;
+  overflow-y: scroll;
+}
+
+.email-signup--legal a {
+  text-decoration: underline;
+}
+
+.modal--wrapper.active {
+  z-index: 100000000;
+  visibility: visible;
+}
+
+.center--it {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+
+  @media (max-height: 700px) {
+    top: 30px;
+    transform: translate(-50%, 0);
+    margin-bottom: 30px;
+  }
+}
+
+.modal--content-black {
+  background: #f3ede7;
+}
+
+.modal--content {
+  transform: translateY(-50px);
+  opacity: 0;
+  width: 850px;
+  max-width: 100%;
+  color: $black;
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.modal-c-wrap {
+  padding: 100px 56px;
+  min-height: 361px;
+}
+
+.modal--content input {
+  border-color: $black;
+  color: $black;
+}
+
+.modal--content input[type="text"] {
+  line-height: 42px;
+}
+
+.modal--content button {
+  color: $black;
+  background: $dark-brown-alt;
+}
+
+.modal--content input::placeholder {
+  color: $black;
+}
+
+.modal-email-photo {
+  min-height: 300px;
+}
+
+.modal--wrapper .email-signup--legal a {
+  color: $black;
+  text-decoration: underline;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+.gform_button {
+  background-color: #d6bfae !important;
+}
+
+.manual-close-form p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.manual-close-form {
+  margin-top: 70px;
+}
